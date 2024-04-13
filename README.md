@@ -4,7 +4,8 @@ Classifies the following images in the folder(imgDataSet):
 - Girls Apparel
 - Mens footwear
 - Womens footwear
-The image dataset is used from here. -> https://www.kaggle.com/datasets/vikashrajluhaniwal/fashion-images
+
+# The image dataset is used from here. -> https://www.kaggle.com/datasets/vikashrajluhaniwal/fashion-images
 
 ## Setting up your environment
 ```
