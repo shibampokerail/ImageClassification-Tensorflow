@@ -13,7 +13,7 @@ pip install -r requirements.txt
 The two libraries used are tensorflow and opencv. So if you are trying to run this from google colab or jupyter notebook then just:
 ```
 pip install tensorflow
-pip install opencv
+pip install opencv-python
 ```
 
 ## Training the model 
