@@ -5,7 +5,7 @@ Classifies the following images in the folder(imgDataSet):
 - Mens footwear
 - Womens footwear
 
-## Setting Up your environment
+## Setting up your environment
 ```
 pip install -r requirements.txt
 ```
@@ -17,7 +17,7 @@ pip install opencv-python
 ```
 
 ## Training the model 
-The current model "object_detection_v1.h5" has an accuracy of 81% and is trained only for 12 epochs using train.py . You can train your own model by changing the layers and nodes in train.py.
+The current model "object_detection_v1.h5" has an accuracy of 81% and is trained only for 12 epochs using train.py . You can train your own model by changing the layers and nodes of the neural network in train.py.
 ```
 python train.py
 ```
