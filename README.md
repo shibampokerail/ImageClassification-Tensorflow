@@ -1,11 +1,11 @@
-## Image Classification with tensorflow
+# Image Classification with tensorflow
 Classifies the following images in the folder(imgDataSet):
 - Boys Apparel
 - Girls Apparel
 - Mens footwear
 - Womens footwear
-
-# The image dataset is used from here. -> https://www.kaggle.com/datasets/vikashrajluhaniwal/fashion-images
+<br>
+The image dataset is used from here. -> https://www.kaggle.com/datasets/vikashrajluhaniwal/fashion-images
 
 ## Setting up your environment
 ```
