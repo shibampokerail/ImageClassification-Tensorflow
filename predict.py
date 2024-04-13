@@ -1,6 +1,8 @@
 import tensorflow as tf
 from train import model
 import cv2
+import sys
+import os
 
 CATEGORIES = ["Boys_Apparel", "Girls_Apparel", "Mens_Footwear", "Womens_Footwear"]
 
@@ -23,10 +25,17 @@ def predict_image(image_name):
     if prediction[0][3]>=1:
         return CATEGORIES[3]
 
-googled_images = ["girlsapparel.jpg","boysapparel.jpg","mensshoes.jpg","heels.png"]
 GOOGLE_IMAGES_DIR = 'google_images_for_external_testing\\'
 
-for image in googled_images:
-    print(image, "====> ", predict_image(GOOGLE_IMAGES_DIR + image))
+files = os.listdir(GOOGLE_IMAGES_DIR)
+
+googled_images = [file for file in files if file.endswith(('jpg', 'jpeg', 'png', 'bmp', 'gif'))]
+
+if len(sys.argv) < 2:
+    for image in googled_images:
+        print(image, "====> ", predict_image(GOOGLE_IMAGES_DIR + image))
+else:
+    print(sys.argv[1], "====> ", predict_image(sys.argv[1]))
+
 
 
