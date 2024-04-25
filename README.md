@@ -1,4 +1,4 @@
-# Image Classification with tensorflow
+# Image Classification Training with tensorflow
 
 This is a simple image classification project that classifies types of apparel.
 
