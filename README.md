@@ -1,11 +1,14 @@
 # Image Classification with tensorflow
+
+This is a simple image classification project that classifies types of apparel.
+
 Classifies the following images in the folder(imgDataSet):
 - Boys Apparel
 - Girls Apparel
-- Mens footwear
-- Womens footwear
+- Mens Footwear
+- Womens Footwear
 <br>
-The image dataset is used from here. -> https://www.kaggle.com/datasets/vikashrajluhaniwal/fashion-images
+The image dataset in the directory imgDataSet is used from here. -> https://www.kaggle.com/datasets/vikashrajluhaniwal/fashion-images
 
 ## Setting up your environment
 ```
