@@ -1,6 +1,6 @@
 # Image Classification Training with tensorflow
 
-This is a simple image classification project that classifies types of apparel.
+This is an image classification project that trains a model to classify types of apparel using tensorflow.
 
 Classifies the following images in the folder(imgDataSet):
 - Boys Apparel
